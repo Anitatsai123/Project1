@@ -5,7 +5,7 @@ from firebase_admin import credentials
 from firebase_admin import db
 from tools import LightButton
 
-cred = credentials.Certificate("private/raspberry1-4c914-firebase-adminsdk-hkne9-465e968baa.json")
+cred = credentials.Certificate("private/raspberry1-4c914-firebase-adminsdk-hkne9-66729e248a.json")
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://raspberry1-4c914-default-rtdb.firebaseio.com/'
 })
